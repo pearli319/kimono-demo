@@ -1,6 +1,5 @@
 * {
   font-family: 微軟正黑體;
-  touch-action: pan-y;
 }
 
 body {
@@ -38,8 +37,8 @@ header.jumbotron .title-bg:before {
   content: "";
   background-image: url(https://assets-cf.lovegraph.me/uploads/albums/6453/2-68536855f4f6f93b6a447b46929ac9722ee6ab16.jpg?ls=1080&v=1590641296&s=3e49094a71e167e44d1018a49e03fb17);
   background-size: cover;
-  background-attachment: fixed;
-  position: absolute;
+/*   background-attachment: fixed; */
+  position: fixed;
   filter: brightness(0.5);
   left: 0;
   top: 0;
