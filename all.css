@@ -1,5 +1,6 @@
 * {
   font-family: 微軟正黑體;
+  touch-action: pan-y;
 }
 
 body {
