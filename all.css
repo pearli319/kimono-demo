@@ -1,0 +1,178 @@
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+.navbar.navbar-expand-md.fixed-top {
+  background-color: transparent;
+  width: 100%;
+}
+.navbar.navbar-expand-md.fixed-top a {
+  color: white;
+  transition: 0.5s;
+}
+.navbar.navbar-expand-md.fixed-top a:hover {
+  color: #f8bbd0;
+}
+
+header.jumbotron {
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: transparent;
+  position: relative;
+  padding-top: 138px;
+}
+
+
+header.jumbotron .title-bg:before {
+  content: "";
+  background-image: url(./images/kimono_0.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  position: fixed;
+  filter: brightness(0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brighteness(0.5);
+}
+header.jumbotron .title-bg .container {
+  color: white;
+  padding: 200px 0px;
+}
+hr.short-line {
+  max-width: 50px;
+  border: solid 2px #f8bbd0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+}
+
+header.jumbotron .title-bg .container h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #f8bbd0;
+}
+section#section_ask .col-sm-5.img {
+  background: url(./images/kimono_1.png);
+  background-size: cover;
+  height: 350px;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about {
+  background-color: #fff;
+}
+section#section_about img {
+  width: 130%;
+}
+section#section_about .img_wrap {
+  height: 220px;
+  overflow: hidden;
+}
+
+section#section_history {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section_history .col-sm-5 {
+  background-image: url(./images/kimono_5.png);
+  background-size: 100% auto;
+  position: relative;
+  height: 400px;
+}
+section#section_history .col-sm-7 {
+  text-align: center;
+}
+section#section_history .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_history .col-sm-7 .col-sm-12.title {
+  padding-top: 20px;
+}
+section#section_history .col-sm-7 .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section#section_other {
+  background-color: #fff;
+}
+section#section_other img {
+  width: 100%;
+}
+section#section_other i {
+  font-size: 30px;
+}
+section#section_other .feature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: transparent;
+  position: relative;
+}
+footer.jumbotron .title-bg:before {
+  content: "";
+  background-image: url(./images/kimono_0.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  filter: brightness(0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brighteness(0.5);
+}
+footer.jumbotron .title-bg input {
+  background-color: transparent;
+  max-width: 300px;
+  margin: auto;
+}
+footer.jumbotron .title-bg .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron .title-bg .container hr {
+  max-width: 50px;
+  border: solid 2px #f8bbd0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 576px) {
+  section#section_history .col-sm-7 .col-sm-12.features .col-sm-4 {
+    padding-bottom: 15px;
+  }
+}
