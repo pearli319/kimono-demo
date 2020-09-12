@@ -82,6 +82,9 @@ section#section_ask h2 {
   padding: 0px 20px;
 }
 
+section#section_about {
+  background-color: #fff;
+}
 section#section_about img {
   width: 130%;
 }
@@ -101,14 +104,6 @@ section#section_history .col-sm-5 {
   position: relative;
   height: 400px;
 }
-/* section#section_history .col-sm-5 .cross {
-  position: absolute;
-  left: 44%;
-  top: 75%;
-  color: red;
-  font-weight: bold;
-  font-size: 30px;
-} */
 section#section_history .col-sm-7 {
   text-align: center;
 }
@@ -123,6 +118,9 @@ section#section_history .col-sm-7 .col-sm-12.features {
   margin-bottom: 40px;
 }
 
+section#section_other {
+  background-color: #fff;
+}
 section#section_other img {
   width: 100%;
 }
