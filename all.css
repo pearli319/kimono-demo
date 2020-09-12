@@ -141,20 +141,6 @@ footer.jumbotron {
   background-color: transparent;
   position: relative;
 }
-footer.jumbotron .title-bg:before {
-  content: "";
-  background-image: url(./images/kimono_0.jpg);
-  background-size: cover;
-/*   background-attachment: fixed; */
-/*   position: fixed; */
-  filter: brightness(0.5);
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  filter: brighteness(0.5);
-}
 footer.jumbotron .title-bg input {
   background-color: transparent;
   max-width: 300px;
